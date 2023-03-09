@@ -10,7 +10,6 @@ const {
   requirePasswordConfirmation,
   requireEmailExists,
   requireValidPasswordForUser
-
 } = require('./validators');
 
 const router = express.Router();
