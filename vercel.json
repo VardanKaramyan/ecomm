@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "buildCommand": "run dev",
+=======
+  "buildCommand": "npm install --save-dev",
+>>>>>>> 41795716aa0ad5f6b219a5f828207fdefad1844f
   "rewrites": [
     {
        "source": "/(.*)", "destination": "/" 
