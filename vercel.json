@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run dev",
+  "buildCommand": "npm install --save-dev",
   "rewrites": [
     {
        "source": "/(.*)", "destination": "/" 
