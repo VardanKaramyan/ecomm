@@ -6,6 +6,7 @@ const adminProductsRouter = require('./routes/admin/products');
 const productsRouter = require('./routes/products');
 const cartsRouter = require('./routes/carts');
 
+const PORT = process.env.PORT || 3010
 const app = express();
 
 app.use(express.static('public'));
@@ -20,8 +21,8 @@ app.use(productsRouter);
 app.use(adminProductsRouter);
 app.use(cartsRouter);
 
-app.listen(4000, () => {
-  console.log('Listening on port 3010...');
+app.listen(PORT, () => {
+  console.log('Listening on port 3010 or process.env.PORT...');
 });
 
 module.exports = app
