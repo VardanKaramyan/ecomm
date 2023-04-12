@@ -21,8 +21,8 @@ app.use(productsRouter);
 app.use(adminProductsRouter);
 app.use(cartsRouter);
 
-app.listen(PORT, () => {
-  console.log('Listening on port 3010 or process.env.PORT...');
+app.listen(3000, () => {
+  console.log('Listening on port 3000...');
 });
 
 module.exports = app
