@@ -1,8 +1,16 @@
 {
-  "buildCommand": "npm install --save-dev",
-  "rewrites": [
+  "version": 2,
+  "buildCommand": "run dev",
+  "builds": [
     {
-       "source": "/(.*)", "destination": "/" 
-      }
-  ] 
+      "src": "index.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.js"
+    }
+  ]
 }
