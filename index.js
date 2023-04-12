@@ -21,5 +21,5 @@ app.use(adminProductsRouter);
 app.use(cartsRouter);
 
 app.listen(3000, () => {
-  console.log('Listening on port 3010...');
+  console.log('Listening on port 3000...');
 });
